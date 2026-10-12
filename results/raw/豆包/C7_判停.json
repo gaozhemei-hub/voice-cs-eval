@@ -1,0 +1,112 @@
+{
+ "product": "豆包",
+ "conversation": "C7_判停",
+ "started": "2026-10-12 03:07:58",
+ "turns": [
+  {
+   "id": "I5",
+   "utterance": "我想问一下〔停2秒〕那个耳机退货要多久到账？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 6.0,
+   "t_speech_start": 1.214,
+   "asr": [
+    "我想问一下。",
+    "内个耳机退货要多久到账啊？"
+   ],
+   "ai_text": "您好，请问您是有什么售后问题要咨询吗？麻烦您提供一下QY开头的订单号和下单手机号后四位哦。麻烦您先提供下对应的QY开头订单号和下单手机号后四位，我先帮您核对订单信息哈。审核通过后退款会原路退回，一般1到3个工作日就能到账啦。",
+   "t_first_audio": 4.066,
+   "ai_text_final": "您好，请问您是有什么售后问题要咨询吗？麻烦您提供一下QY开头的订单号和下单手机号后四位哦。 麻烦您先提供下对应的QY开头订单号和下单手机号后四位，我先帮您核对订单信息哈。审核通过后退款会原路退回，一般1到3个工作日就能到账啦。",
+   "responses_done": [
+    [
+     6.083,
+     ""
+    ],
+    [
+     21.747,
+     ""
+    ]
+   ],
+   "t_speech_end": 7.214910040998365,
+   "latency_from_speech_end_s": -3.149,
+   "note": "模型在用户说完之前就开口了（可能抢话）",
+   "interrupted_during_pause": true,
+   "pause_window": [
+    2.774,
+    4.774
+   ],
+   "audio_sec": 22.39,
+   "n_audio_chunks": 58
+  }
+ ],
+ "voice": "zh_female_vv_jupiter_bigtts",
+ "errors": [],
+ "event_types": [
+  "conversation.item.input_audio_transcription.completed",
+  "conversation.item.input_audio_transcription.started",
+  "response.done",
+  "response.output_audio.done",
+  "response.output_audio.started",
+  "response.output_text.done",
+  "session.closed",
+  "session.created"
+ ],
+ "event_timeline_head": [
+  [
+   0.21,
+   "session.created"
+  ],
+  [
+   2.539,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   3.552,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   3.871,
+   "response.output_audio.started"
+  ],
+  [
+   4.31,
+   "response.output_text.done"
+  ],
+  [
+   5.504,
+   "response.output_audio.done"
+  ],
+  [
+   6.083,
+   "response.done"
+  ],
+  [
+   6.083,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   7.717,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   8.144,
+   "response.output_audio.started"
+  ],
+  [
+   9.158,
+   "response.output_text.done"
+  ],
+  [
+   10.578,
+   "response.output_audio.done"
+  ],
+  [
+   21.747,
+   "response.done"
+  ],
+  [
+   27.047,
+   "session.closed"
+  ]
+ ]
+}

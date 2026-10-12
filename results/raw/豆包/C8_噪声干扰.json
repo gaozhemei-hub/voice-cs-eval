@@ -1,0 +1,125 @@
+{
+ "product": "豆包",
+ "conversation": "C8_噪声干扰",
+ "started": "2026-10-12 03:08:28",
+ "turns": [
+  {
+   "id": "I6",
+   "utterance": "我的手机号是一三八，一二三四，五六七八，你帮我重复一遍。",
+   "kind": "normal",
+   "mix": "noise",
+   "speech_sec": 7.14,
+   "t_speech_start": 1.323,
+   "t_speech_end": 8.3527163340291,
+   "asr": [
+    "我的手机号是 13812345678，你帮我重复一遍。"
+   ],
+   "ai_text": "您好，咱们这边是售后客服，暂时不需要您提供完整手机号哦，要是需要查订单，您提供订单号和手机号后四位就可以啦。麻烦您先提供一下QY开头的订单号，",
+   "t_first_audio": 8.798,
+   "ai_text_final": "您好，咱们这边是售后客服，暂时不需要您提供完整手机号哦，要是需要查订单，您提供订单号和手机号后四位就可以啦。",
+   "latency_from_speech_end_s": 0.445,
+   "audio_sec": 9.99,
+   "n_audio_chunks": 26,
+   "responses_done": [
+    [
+     18.874,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "I7",
+   "utterance": "我想退货，怎么操作？",
+   "kind": "normal",
+   "mix": "bystander",
+   "speech_sec": 2.82,
+   "t_speech_start": 19.588,
+   "t_speech_end": 22.413166250025387,
+   "asr": [
+    "哎，我想退货，哎，怎么操作啊？"
+   ],
+   "ai_text": "还有下单手机号的后四位，我先帮您核对订单情况哦。",
+   "t_first_audio": 23.506,
+   "ai_text_final": "麻烦您先提供一下QY开头的订单号，还有下单手机号的后四位，我先帮您核对订单情况哦。",
+   "latency_from_speech_end_s": 1.093,
+   "audio_sec": 7.6,
+   "n_audio_chunks": 20,
+   "responses_done": [
+    [
+     31.355,
+     ""
+    ]
+   ]
+  }
+ ],
+ "voice": "zh_female_vv_jupiter_bigtts",
+ "errors": [],
+ "event_types": [
+  "conversation.item.input_audio_transcription.completed",
+  "conversation.item.input_audio_transcription.started",
+  "response.done",
+  "response.output_audio.done",
+  "response.output_audio.started",
+  "response.output_text.done",
+  "session.closed",
+  "session.created"
+ ],
+ "event_timeline_head": [
+  [
+   0.212,
+   "session.created"
+  ],
+  [
+   3.082,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   8.368,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   8.415,
+   "response.output_audio.started"
+  ],
+  [
+   9.349,
+   "response.output_text.done"
+  ],
+  [
+   10.489,
+   "response.output_audio.done"
+  ],
+  [
+   18.874,
+   "response.done"
+  ],
+  [
+   20.753,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   23.088,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   23.314,
+   "response.output_audio.started"
+  ],
+  [
+   23.793,
+   "response.output_text.done"
+  ],
+  [
+   24.778,
+   "response.output_audio.done"
+  ],
+  [
+   31.355,
+   "response.done"
+  ],
+  [
+   31.707,
+   "session.closed"
+  ]
+ ]
+}

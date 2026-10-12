@@ -1,0 +1,9 @@
+# 密钥绝不上传
+eval/keys.txt
+keys.txt
+# 运行产生的文件
+eval/.venv/
+eval/tts_cache/
+eval/results/
+.DS_Store
+__pycache__/

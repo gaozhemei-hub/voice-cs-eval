@@ -1,0 +1,138 @@
+{
+ "product": "豆包",
+ "conversation": "C5_打断",
+ "started": "2026-10-12 03:07:10",
+ "turns": [
+  {
+   "id": "I3a",
+   "utterance": "你们退货流程是怎样的，详细说说。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 3.12,
+   "t_speech_start": 1.211,
+   "t_speech_end": 4.328710292039904,
+   "asr": [
+    "你们退伙流程是怎样的？详细说说。"
+   ],
+   "ai_text": "麻烦您先提供一下QY开头的订单号和下单手机号后四位，我先核对订单信息，再给您说对应流程哦。如果是七天无理由，运费",
+   "t_first_audio": 5.824,
+   "latency_from_speech_end_s": 1.495,
+   "audio_sec": 0.34,
+   "n_audio_chunks": 1,
+   "ai_text_final": "麻烦您先提供一下QY开头的订单号和下单手机号后四位，我先核对订单信息，再给您说对应流程哦。",
+   "responses_done": [
+    [
+     8.62,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "I3b",
+   "utterance": "停一下，我只想知道运费谁出。",
+   "kind": "barge",
+   "mix": null,
+   "prev_playback_end_est": 14.201,
+   "prev_still_playing": true,
+   "prev_audio_still_streaming": false,
+   "speech_sec": 2.96,
+   "t_speech_start": 7.831,
+   "t_speech_end": 10.808819584005978,
+   "asr": [
+    "停一响，我只想知道运费谁出？"
+   ],
+   "ai_text": "您自己承担；要是质量问题，15天内的话运费由我们平台承担。",
+   "t_first_audio": 11.875,
+   "ai_text_final": "如果是七天无理由，运费您自己承担；要是质量问题，15天内的话运费由我们平台承担。",
+   "prev_last_audio_t": 6.999,
+   "prev_responses_done": [
+    [
+     8.62,
+     ""
+    ]
+   ],
+   "prev_audio_continued_after_barge_s": 0.0,
+   "prev_was_cancelled": false,
+   "latency_from_speech_end_s": 1.066,
+   "audio_sec": 7.59,
+   "n_audio_chunks": 20,
+   "responses_done": [
+    [
+     19.819,
+     ""
+    ]
+   ],
+   "prev_total_audio_sec": 8.38
+  }
+ ],
+ "voice": "zh_female_vv_jupiter_bigtts",
+ "errors": [],
+ "event_types": [
+  "conversation.item.input_audio_transcription.completed",
+  "conversation.item.input_audio_transcription.started",
+  "response.done",
+  "response.output_audio.done",
+  "response.output_audio.started",
+  "response.output_text.done",
+  "session.closed",
+  "session.created"
+ ],
+ "event_timeline_head": [
+  [
+   0.208,
+   "session.created"
+  ],
+  [
+   2.197,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   5.192,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   5.623,
+   "response.output_audio.started"
+  ],
+  [
+   6.061,
+   "response.output_text.done"
+  ],
+  [
+   7.0,
+   "response.output_audio.done"
+  ],
+  [
+   8.62,
+   "response.done"
+  ],
+  [
+   8.62,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   11.563,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   11.648,
+   "response.output_audio.started"
+  ],
+  [
+   12.327,
+   "response.output_text.done"
+  ],
+  [
+   13.202,
+   "response.output_audio.done"
+  ],
+  [
+   19.819,
+   "response.done"
+  ],
+  [
+   20.066,
+   "session.closed"
+  ]
+ ]
+}

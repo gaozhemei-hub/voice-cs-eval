@@ -1,0 +1,411 @@
+{
+ "product": "阶跃",
+ "conversation": "C3_情绪与理解",
+ "started": "2026-10-12 02:55:55",
+ "turns": [
+  {
+   "id": "Q6",
+   "utterance": "我都等了一个礼拜了！你们到底发不发货啊！",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 3.6,
+   "t_speech_start": 1.94,
+   "vad_speech_started": [
+    3.209
+   ],
+   "t_speech_end": 5.434185374975204,
+   "vad_speech_stopped": [
+    7.25
+   ],
+   "responses_created": [
+    7.254
+   ],
+   "ai_text": "非常理解您着急的心情，请问方便提供一下订单号和手机号后四位吗？我帮您查一下具体发货情况。",
+   "t_first_audio": 7.287,
+   "ai_text_final": "非常理解您着急的心情，请问方便提供一下订单号和手机号后四位吗？我帮您查一下具体发货情况。",
+   "asr": [
+    "我都等了一个礼拜了，你们到底发不发货啊？"
+   ],
+   "responses_done": [
+    [
+     10.524,
+     "completed"
+    ]
+   ],
+   "latency_from_speech_end_s": 1.853,
+   "latency_from_vad_stop_s": 0.037,
+   "audio_sec": 9.46,
+   "n_audio_chunks": 60
+  },
+  {
+   "id": "Q7",
+   "utterance": "那个……就是我上次买的那个，能不能帮我弄一下？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 5.08,
+   "t_speech_start": 17.678,
+   "vad_speech_started": [
+    18.993,
+    25.787
+   ],
+   "t_speech_end": 22.674000832990277,
+   "vad_speech_stopped": [
+    25.382
+   ],
+   "responses_created": [
+    25.386
+   ],
+   "ai_text": "您好，为了帮您查询，需要您提供订单号（QY开头加8位数字）和下单手机号后四位哦。",
+   "t_first_audio": 25.409,
+   "ai_text_final": "您好，为了帮您查询，需要您提供订单号（QY开头加8位数字）和下单手机号后四位哦。",
+   "asr": [
+    "那个，就是我上次买的那个，能不能帮我弄一下？"
+   ],
+   "responses_done": [
+    [
+     27.21,
+     "completed"
+    ]
+   ],
+   "latency_from_speech_end_s": 2.735,
+   "latency_from_vad_stop_s": 0.027,
+   "audio_sec": 6.48,
+   "n_audio_chunks": 42
+  },
+  {
+   "id": "Q11",
+   "utterance": "这个order能不能直接refund到我支付宝？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 3.12,
+   "t_speech_start": 32.777,
+   "t_speech_end": 36.81867708298844,
+   "vad_speech_started": [
+    38.136
+   ],
+   "vad_speech_stopped": [
+    41.142
+   ],
+   "responses_created": [
+    41.146
+   ],
+   "ai_text": "您好，退款都是原路退回的，审核通过后1到3个工作日到账。请问您是要申请退款吗？",
+   "ai_text_final": "您好，退款都是原路退回的，审核通过后1到3个工作日到账。请问您是要申请退款吗？",
+   "t_first_audio": 41.332,
+   "asr": [
+    "这个order能不能直接refund到支付宝"
+   ],
+   "responses_done": [
+    [
+     43.764,
+     "completed"
+    ]
+   ],
+   "latency_from_speech_end_s": 4.513,
+   "latency_from_vad_stop_s": 0.19,
+   "audio_sec": 9.7,
+   "n_audio_chunks": 60
+  },
+  {
+   "id": "I9",
+   "utterance": "好的，没别的事了，谢谢啊。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 2.76,
+   "t_speech_start": 51.894,
+   "t_speech_end": 54.889092500011905,
+   "vad_speech_started": [
+    56.39
+   ],
+   "vad_speech_stopped": [
+    60.242
+   ],
+   "responses_created": [
+    60.246
+   ],
+   "ai_text": "不客气，有其他问题随时联系我们，祝您生活愉快！",
+   "t_first_audio": 60.275,
+   "ai_text_final": "不客气，有其他问题随时联系我们，祝您生活愉快！",
+   "asr": [
+    "好的，没别的事了，谢谢啊。"
+   ],
+   "responses_done": [
+    [
+     61.67,
+     "completed"
+    ]
+   ],
+   "latency_from_speech_end_s": 5.386,
+   "latency_from_vad_stop_s": 0.033,
+   "audio_sec": 5.04,
+   "n_audio_chunks": 33
+  }
+ ],
+ "voice": null,
+ "errors": [],
+ "event_types": [
+  "conversation.item.created",
+  "conversation.item.input_audio_transcription.completed",
+  "input_audio_buffer.cleared",
+  "input_audio_buffer.committed",
+  "input_audio_buffer.speech_backchannel",
+  "input_audio_buffer.speech_started",
+  "input_audio_buffer.speech_stopped",
+  "response.audio.done",
+  "response.audio_transcript.done",
+  "response.content_part.added",
+  "response.content_part.done",
+  "response.created",
+  "response.done",
+  "response.output_item.added",
+  "response.output_item.done",
+  "session.created",
+  "session.updated"
+ ],
+ "event_timeline_head": [
+  [
+   0.635,
+   "session.created"
+  ],
+  [
+   0.833,
+   "session.updated"
+  ],
+  [
+   3.209,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   7.25,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   7.25,
+   "input_audio_buffer.committed"
+  ],
+  [
+   7.253,
+   "conversation.item.created"
+  ],
+  [
+   7.254,
+   "response.created"
+  ],
+  [
+   7.254,
+   "response.output_item.added"
+  ],
+  [
+   7.254,
+   "conversation.item.created"
+  ],
+  [
+   7.254,
+   "response.content_part.added"
+  ],
+  [
+   7.481,
+   "response.audio_transcript.done"
+  ],
+  [
+   7.681,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   10.513,
+   "response.audio.done"
+  ],
+  [
+   10.513,
+   "response.content_part.done"
+  ],
+  [
+   10.513,
+   "response.output_item.done"
+  ],
+  [
+   10.524,
+   "response.done"
+  ],
+  [
+   18.993,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   25.382,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   25.383,
+   "input_audio_buffer.committed"
+  ],
+  [
+   25.383,
+   "conversation.item.created"
+  ],
+  [
+   25.386,
+   "response.created"
+  ],
+  [
+   25.386,
+   "response.output_item.added"
+  ],
+  [
+   25.39,
+   "conversation.item.created"
+  ],
+  [
+   25.39,
+   "response.content_part.added"
+  ],
+  [
+   25.787,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   25.8,
+   "response.audio_transcript.done"
+  ],
+  [
+   25.927,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   26.532,
+   "input_audio_buffer.speech_backchannel"
+  ],
+  [
+   26.532,
+   "input_audio_buffer.cleared"
+  ],
+  [
+   27.209,
+   "response.audio.done"
+  ],
+  [
+   27.209,
+   "response.content_part.done"
+  ],
+  [
+   27.209,
+   "response.output_item.done"
+  ],
+  [
+   27.21,
+   "response.done"
+  ],
+  [
+   38.136,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   41.142,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   41.142,
+   "input_audio_buffer.committed"
+  ],
+  [
+   41.143,
+   "conversation.item.created"
+  ],
+  [
+   41.146,
+   "response.created"
+  ],
+  [
+   41.148,
+   "response.output_item.added"
+  ],
+  [
+   41.148,
+   "conversation.item.created"
+  ],
+  [
+   41.148,
+   "response.content_part.added"
+  ],
+  [
+   41.332,
+   "response.audio_transcript.done"
+  ],
+  [
+   41.391,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   43.752,
+   "response.audio.done"
+  ],
+  [
+   43.752,
+   "response.content_part.done"
+  ],
+  [
+   43.752,
+   "response.output_item.done"
+  ],
+  [
+   43.764,
+   "response.done"
+  ],
+  [
+   56.39,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   60.242,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   60.242,
+   "input_audio_buffer.committed"
+  ],
+  [
+   60.243,
+   "conversation.item.created"
+  ],
+  [
+   60.246,
+   "response.created"
+  ],
+  [
+   60.246,
+   "response.output_item.added"
+  ],
+  [
+   60.246,
+   "conversation.item.created"
+  ],
+  [
+   60.246,
+   "response.content_part.added"
+  ],
+  [
+   60.653,
+   "response.audio_transcript.done"
+  ],
+  [
+   60.845,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   61.665,
+   "response.audio.done"
+  ],
+  [
+   61.665,
+   "response.content_part.done"
+  ],
+  [
+   61.665,
+   "response.output_item.done"
+  ],
+  [
+   61.67,
+   "response.done"
+  ]
+ ]
+}

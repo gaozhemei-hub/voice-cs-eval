@@ -1,0 +1,221 @@
+{
+ "product": "豆包",
+ "conversation": "C3_情绪与理解",
+ "started": "2026-10-12 03:04:39",
+ "turns": [
+  {
+   "id": "Q6",
+   "utterance": "我都等了一个礼拜了！你们到底发不发货啊！",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 3.6,
+   "t_speech_start": 1.231,
+   "t_speech_end": 4.828966457960195,
+   "asr": [
+    "我都等了一个礼拜了，你们到底发不发货啊？"
+   ],
+   "ai_text": "麻烦您提供一下QY开头的订单号和下单手机号后四位，我帮您核对订单情况哦。不好意思，我得",
+   "t_first_audio": 6.027,
+   "ai_text_final": "麻烦您提供一下QY开头的订单号和下单手机号后四位，我帮您核对订单情况哦。",
+   "latency_from_speech_end_s": 1.198,
+   "audio_sec": 7.0,
+   "n_audio_chunks": 18,
+   "responses_done": [
+    [
+     13.115,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "Q7",
+   "utterance": "那个……就是我上次买的那个，能不能帮我弄一下？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 5.08,
+   "t_speech_start": 13.84,
+   "t_speech_end": 18.928643167000264,
+   "asr": [
+    "那个就是我上次买的那个，能不能帮我弄一下？"
+   ],
+   "ai_text": "先核对您的订单信息，麻烦说下QY开头的订单号和下单手机号后四位哈。咱们平台退款都是原路退回的，",
+   "t_first_audio": 19.919,
+   "ai_text_final": "不好意思，我得先核对您的订单信息，麻烦说下QY开头的订单号和下单手机号后四位哈。",
+   "latency_from_speech_end_s": 0.99,
+   "audio_sec": 8.2,
+   "n_audio_chunks": 21,
+   "responses_done": [
+    [
+     28.475,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "Q11",
+   "utterance": "这个order能不能直接refund到我支付宝？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 3.12,
+   "t_speech_start": 28.96,
+   "t_speech_end": 32.08879245798337,
+   "asr": [
+    "这个 order 能不能直接 refund 到支付宝？"
+   ],
+   "ai_text": "没法直接指定退到支付宝哦，还是得先核对您的订单信息才能处理~不客气，如果之后有售后问题，",
+   "t_first_audio": 33.346,
+   "ai_text_final": "咱们平台退款都是原路退回的，没法直接指定退到支付宝哦，还是得先核对您的订单信息才能处理~",
+   "latency_from_speech_end_s": 1.257,
+   "audio_sec": 7.99,
+   "n_audio_chunks": 21,
+   "responses_done": [
+    [
+     41.595,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "I9",
+   "utterance": "好的，没别的事了，谢谢啊。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 2.76,
+   "t_speech_start": 42.17,
+   "t_speech_end": 44.9490555419866,
+   "asr": [
+    "好的，没别的事了，谢谢啊。"
+   ],
+   "ai_text": "随时都能找我哦。",
+   "ai_text_final": "不客气，如果之后有售后问题，随时都能找我哦。",
+   "t_first_audio": 46.228,
+   "responses_done": [
+    [
+     50.245,
+     ""
+    ]
+   ],
+   "latency_from_speech_end_s": 1.279,
+   "audio_sec": 3.96,
+   "n_audio_chunks": 11
+  }
+ ],
+ "voice": "zh_female_vv_jupiter_bigtts",
+ "errors": [],
+ "event_types": [
+  "conversation.item.input_audio_transcription.completed",
+  "conversation.item.input_audio_transcription.started",
+  "response.done",
+  "response.output_audio.done",
+  "response.output_audio.started",
+  "response.output_text.done",
+  "session.closed",
+  "session.created"
+ ],
+ "event_timeline_head": [
+  [
+   0.227,
+   "session.created"
+  ],
+  [
+   2.175,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   5.501,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   5.809,
+   "response.output_audio.started"
+  ],
+  [
+   6.181,
+   "response.output_text.done"
+  ],
+  [
+   6.853,
+   "response.output_audio.done"
+  ],
+  [
+   13.115,
+   "response.done"
+  ],
+  [
+   14.965,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   19.579,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   19.649,
+   "response.output_audio.started"
+  ],
+  [
+   20.294,
+   "response.output_text.done"
+  ],
+  [
+   21.346,
+   "response.output_audio.done"
+  ],
+  [
+   28.475,
+   "response.done"
+  ],
+  [
+   29.914,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   33.018,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   33.207,
+   "response.output_audio.started"
+  ],
+  [
+   33.814,
+   "response.output_text.done"
+  ],
+  [
+   34.756,
+   "response.output_audio.done"
+  ],
+  [
+   41.595,
+   "response.done"
+  ],
+  [
+   43.085,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   45.816,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   45.929,
+   "response.output_audio.started"
+  ],
+  [
+   46.207,
+   "response.output_text.done"
+  ],
+  [
+   46.641,
+   "response.output_audio.done"
+  ],
+  [
+   50.245,
+   "response.done"
+  ],
+  [
+   50.799,
+   "session.closed"
+  ]
+ ]
+}

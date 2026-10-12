@@ -1,0 +1,317 @@
+{
+ "product": "豆包",
+ "conversation": "C4_延迟",
+ "started": "2026-10-12 03:05:33",
+ "turns": [
+  {
+   "id": "I1#1",
+   "utterance": "你好。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 0.56,
+   "t_speech_start": 1.215,
+   "t_speech_end": 1.7734248339943588,
+   "asr": [
+    "你好。"
+   ],
+   "ai_text": "您好，这里是青柚优选售后客服小柚，请问您有什么售后问题需要咨询呀？您好呀，请问您是有订单售后相关的问题要咨询吗？",
+   "t_first_audio": 3.056,
+   "ai_text_final": "您好，这里是青柚优选售后客服小柚，请问您有什么售后问题需要咨询呀？",
+   "latency_from_speech_end_s": 1.283,
+   "audio_sec": 5.98,
+   "n_audio_chunks": 16,
+   "responses_done": [
+    [
+     9.268,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "I1#2",
+   "utterance": "你好。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 0.56,
+   "t_speech_start": 9.84,
+   "t_speech_end": 10.412332834016997,
+   "asr": [
+    "你好。"
+   ],
+   "ai_text_final": "您好呀，请问您是有订单售后相关的问题要咨询吗？",
+   "t_first_audio": 11.939,
+   "latency_from_speech_end_s": 1.527,
+   "audio_sec": 4.38,
+   "n_audio_chunks": 12,
+   "responses_done": [
+    [
+     16.628,
+     ""
+    ]
+   ],
+   "ai_text": "您好，我是青柚"
+  },
+  {
+   "id": "I1#3",
+   "utterance": "你好。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 0.56,
+   "t_speech_start": 17.125,
+   "t_speech_end": 17.69313599999761,
+   "asr": [
+    "你好。"
+   ],
+   "ai_text": "优选的售后客服，您可以说说具体遇到的问题哦。麻烦您先提供下QY开头的订单号和下单手机号后四位，",
+   "t_first_audio": 18.924,
+   "ai_text_final": "您好，我是青柚优选的售后客服，您可以说说具体遇到的问题哦。",
+   "latency_from_speech_end_s": 1.231,
+   "audio_sec": 5.42,
+   "n_audio_chunks": 15,
+   "responses_done": [
+    [
+     24.628,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "I2#1",
+   "utterance": "我的耳机签收第五天发现左耳没声音，退货的话运费谁出？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 6.84,
+   "t_speech_start": 25.17,
+   "t_speech_end": 32.0123330420279,
+   "asr": [
+    "我的耳机签收第五天发现左耳没声音，退货的话运费谁出啊？"
+   ],
+   "ai_text": "我先核对下订单信息哈。如果是质量问题，15天内退货运费是我们平台承担的，还需要您提供下故障的照片或视频哦。先跟您核对下，",
+   "t_first_audio": 33.383,
+   "ai_text_final": "麻烦您先提供下QY开头的订单号和下单手机号后四位，我先核对下订单信息哈。如果是质量问题，15天内退货运费是我们平台承担的，还需要您提供下故障的照片或视频哦。",
+   "latency_from_speech_end_s": 1.371,
+   "audio_sec": 15.2,
+   "n_audio_chunks": 39,
+   "responses_done": [
+    [
+     48.95,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "I2#2",
+   "utterance": "我的耳机签收第五天发现左耳没声音，退货的话运费谁出？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 6.84,
+   "t_speech_start": 49.411,
+   "t_speech_end": 56.25347924998962,
+   "asr": [
+    "我的耳机签收第五天发现左耳没声音，退货的话运费谁出啊？"
+   ],
+   "ai_text": "要是确实是商品质量问题，签收15天内退货运费由我们平台承担。您得先提供订单号和手机号后四位，再准备好故障的照片或视频就可以啦。您这个情况属于质量问题，",
+   "t_first_audio": 57.425,
+   "ai_text_final": "先跟您核对下，要是确实是商品质量问题，签收15天内退货运费由我们平台承担。您得先提供订单号和手机号后四位，再准备好故障的照片或视频就可以啦。",
+   "latency_from_speech_end_s": 1.172,
+   "audio_sec": 13.21,
+   "n_audio_chunks": 34,
+   "responses_done": [
+    [
+     70.707,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "I2#3",
+   "utterance": "我的耳机签收第五天发现左耳没声音，退货的话运费谁出？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 6.84,
+   "t_speech_start": 71.451,
+   "t_speech_end": 78.2926106250193,
+   "asr": [
+    "我的耳机签收第五天发现左耳没声音，退货的话运费谁出啊？"
+   ],
+   "ai_text": "只要在签收15天内申请，运费是由青柚优选承担的。不过得先麻烦您提供QY开头的订单号和下单手机号后四位，核对后就能走流程啦。",
+   "t_first_audio": 79.715,
+   "ai_text_final": "您这个情况属于质量问题，只要在签收15天内申请，运费是由青柚优选承担的。不过得先麻烦您提供QY开头的订单号和下单手机号后四位，核对后就能走流程啦。",
+   "latency_from_speech_end_s": 1.422,
+   "audio_sec": 14.4,
+   "n_audio_chunks": 36,
+   "responses_done": [
+    [
+     94.392,
+     ""
+    ]
+   ]
+  }
+ ],
+ "voice": "zh_female_vv_jupiter_bigtts",
+ "errors": [],
+ "event_types": [
+  "conversation.item.input_audio_transcription.completed",
+  "conversation.item.input_audio_transcription.started",
+  "response.done",
+  "response.output_audio.done",
+  "response.output_audio.started",
+  "response.output_text.done",
+  "session.closed",
+  "session.created"
+ ],
+ "event_timeline_head": [
+  [
+   0.212,
+   "session.created"
+  ],
+  [
+   1.917,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   2.607,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   2.887,
+   "response.output_audio.started"
+  ],
+  [
+   3.18,
+   "response.output_text.done"
+  ],
+  [
+   3.863,
+   "response.output_audio.done"
+  ],
+  [
+   9.268,
+   "response.done"
+  ],
+  [
+   10.532,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   11.248,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   11.767,
+   "response.output_audio.started"
+  ],
+  [
+   11.773,
+   "response.output_text.done"
+  ],
+  [
+   12.399,
+   "response.output_audio.done"
+  ],
+  [
+   16.628,
+   "response.done"
+  ],
+  [
+   17.814,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   18.595,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   18.664,
+   "response.output_audio.started"
+  ],
+  [
+   18.964,
+   "response.output_text.done"
+  ],
+  [
+   19.709,
+   "response.output_audio.done"
+  ],
+  [
+   24.628,
+   "response.done"
+  ],
+  [
+   26.23,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   32.693,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   33.162,
+   "response.output_audio.started"
+  ],
+  [
+   34.545,
+   "response.output_text.done"
+  ],
+  [
+   36.027,
+   "response.output_audio.done"
+  ],
+  [
+   48.95,
+   "response.done"
+  ],
+  [
+   50.465,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   56.997,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   57.08,
+   "response.output_audio.started"
+  ],
+  [
+   58.64,
+   "response.output_text.done"
+  ],
+  [
+   60.063,
+   "response.output_audio.done"
+  ],
+  [
+   70.707,
+   "response.done"
+  ],
+  [
+   72.505,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   79.109,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   79.208,
+   "response.output_audio.started"
+  ],
+  [
+   80.744,
+   "response.output_text.done"
+  ],
+  [
+   82.093,
+   "response.output_audio.done"
+  ],
+  [
+   94.392,
+   "response.done"
+  ],
+  [
+   94.72,
+   "session.closed"
+  ]
+ ]
+}

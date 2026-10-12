@@ -1,0 +1,576 @@
+{
+ "product": "千问",
+ "conversation": "C4_延迟",
+ "started": "2026-10-12 03:04:39",
+ "turns": [
+  {
+   "id": "I1#1",
+   "utterance": "你好。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 0.56,
+   "t_speech_start": 1.177,
+   "vad_speech_started": [
+    1.689
+   ],
+   "t_speech_end": 1.735938042034395,
+   "vad_speech_stopped": [
+    2.395
+   ],
+   "responses_created": [
+    2.395
+   ],
+   "ai_text": "您好，我是青柚优选的售后客服小柚。请问有什么可以帮您？",
+   "asr": [
+    "你好。"
+   ],
+   "t_first_audio": 2.728,
+   "ai_text_final": "您好，我是青柚优选的售后客服小柚。请问有什么可以帮您？",
+   "responses_done": [
+    [
+     3.141,
+     "completed"
+    ]
+   ],
+   "latency_from_speech_end_s": 0.992,
+   "latency_from_vad_stop_s": 0.333,
+   "audio_sec": 5.52,
+   "n_audio_chunks": 14
+  },
+  {
+   "id": "I1#2",
+   "utterance": "你好。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 0.56,
+   "t_speech_start": 9.053,
+   "vad_speech_started": [
+    9.539
+   ],
+   "t_speech_end": 9.615997083990369,
+   "vad_speech_stopped": [
+    10.31
+   ],
+   "responses_created": [
+    10.31
+   ],
+   "ai_text": "您好，请问您有什么售后问题需要咨询呢？",
+   "asr": [
+    "你好。"
+   ],
+   "t_first_audio": 10.683,
+   "ai_text_final": "您好，请问您有什么售后问题需要咨询呢？",
+   "responses_done": [
+    [
+     10.91,
+     "completed"
+    ]
+   ],
+   "latency_from_speech_end_s": 1.067,
+   "latency_from_vad_stop_s": 0.373,
+   "audio_sec": 3.04,
+   "n_audio_chunks": 8
+  },
+  {
+   "id": "I1#3",
+   "utterance": "你好。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 0.56,
+   "t_speech_start": 14.553,
+   "vad_speech_started": [
+    15.044
+   ],
+   "t_speech_end": 15.11565370902419,
+   "vad_speech_stopped": [
+    15.83
+   ],
+   "responses_created": [
+    15.83
+   ],
+   "ai_text": "您好，请问您遇到了什么售后问题？",
+   "asr": [
+    "你好。"
+   ],
+   "t_first_audio": 16.153,
+   "ai_text_final": "您好，请问您遇到了什么售后问题？",
+   "responses_done": [
+    [
+     16.354,
+     "completed"
+    ]
+   ],
+   "latency_from_speech_end_s": 1.037,
+   "latency_from_vad_stop_s": 0.323,
+   "audio_sec": 2.72,
+   "n_audio_chunks": 7
+  },
+  {
+   "id": "I2#1",
+   "utterance": "我的耳机签收第五天发现左耳没声音，退货的话运费谁出？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 6.84,
+   "t_speech_start": 19.7,
+   "vad_speech_started": [
+    20.401,
+    24.236
+   ],
+   "vad_speech_stopped": [
+    24.152,
+    26.31
+   ],
+   "responses_created": [
+    24.152,
+    26.31
+   ],
+   "ai_text": "非常抱歉给您带来不便。请问您能提供一下订单号和手机号后四位如果是质量问题，运费由我们青柚优选承担。不过需要您先提供订单号和手机号后四位，我帮您核对一下。",
+   "ai_text_final": "非常抱歉给您带来不便。请问您能提供一下订单号和手机号后四位 如果是质量问题，运费由我们青柚优选承担。不过需要您先提供订单号和手机号后四位，我帮您核对一下。",
+   "responses_done": [
+    [
+     24.238,
+     "cancelled"
+    ],
+    [
+     27.41,
+     "completed"
+    ]
+   ],
+   "asr": [
+    "我的耳机签收第5天发现左耳没声音",
+    "退货的话运费谁出？"
+   ],
+   "t_speech_end": 26.556296541977208,
+   "t_first_audio": 26.733,
+   "latency_from_speech_end_s": 0.177,
+   "latency_from_vad_stop_s": 0.423,
+   "audio_sec": 9.12,
+   "n_audio_chunks": 23
+  },
+  {
+   "id": "I2#2",
+   "utterance": "我的耳机签收第五天发现左耳没声音，退货的话运费谁出？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 6.84,
+   "t_speech_start": 36.67,
+   "vad_speech_started": [
+    37.357,
+    41.312
+   ],
+   "vad_speech_stopped": [
+    41.109,
+    43.271
+   ],
+   "responses_created": [
+    41.109,
+    43.271
+   ],
+   "ai_text": "您先别急，质量问题我们是可以帮您处理的。为了核实订单，麻烦您提供一下订单如果是质量问题，运费由我们承担。但需要您先提供订单号和手机号后四位，我才能帮您处理。",
+   "ai_text_final": "您先别急，质量问题我们是可以帮您处理的。为了核实订单，麻烦您提供一下订单 如果是质量问题，运费由我们承担。但需要您先提供订单号和手机号后四位，我才能帮您处理。",
+   "responses_done": [
+    [
+     41.313,
+     "cancelled"
+    ],
+    [
+     44.285,
+     "completed"
+    ]
+   ],
+   "asr": [
+    "我的耳机签收第5天发现左耳没声音",
+    "退货的话运费谁出？"
+   ],
+   "t_speech_end": 43.51549420899712,
+   "t_first_audio": 43.6,
+   "latency_from_speech_end_s": 0.085,
+   "latency_from_vad_stop_s": 0.329,
+   "audio_sec": 8.16,
+   "n_audio_chunks": 21
+  },
+  {
+   "id": "I2#3",
+   "utterance": "我的耳机签收第五天发现左耳没声音，退货的话运费谁出？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 6.84,
+   "t_speech_start": 52.599,
+   "vad_speech_started": [
+    53.279,
+    57.259
+   ],
+   "vad_speech_stopped": [
+    57.033,
+    59.195
+   ],
+   "responses_created": [
+    57.033,
+    59.195
+   ],
+   "ai_text": "您先别着急，质量问题我们一定会负责到底的。为了尽快帮您处理，麻烦您提供一下如果是质量问题，运费由我们青柚优选承担。请您提供一下订单号和手机号后四位，我马上为您核实。",
+   "ai_text_final": "您先别着急，质量问题我们一定会负责到底的。为了尽快帮您处理，麻烦您提供一下 如果是质量问题，运费由我们青柚优选承担。请您提供一下订单号和手机号后四位，我马上为您核实。",
+   "responses_done": [
+    [
+     57.279,
+     "cancelled"
+    ],
+    [
+     60.251,
+     "completed"
+    ]
+   ],
+   "asr": [
+    "我的耳机签收第5天发现左耳没声音",
+    "退货的话运费谁出？"
+   ],
+   "t_speech_end": 59.45534204200842,
+   "t_first_audio": 59.539,
+   "latency_from_speech_end_s": 0.084,
+   "latency_from_vad_stop_s": 0.344,
+   "audio_sec": 8.8,
+   "n_audio_chunks": 22
+  }
+ ],
+ "voice": "longanqian_v3.1",
+ "errors": [],
+ "event_types": [
+  "conversation.item.created",
+  "conversation.item.input_audio_transcription.completed",
+  "input_audio_buffer.committed",
+  "input_audio_buffer.speech_started",
+  "input_audio_buffer.speech_stopped",
+  "response.audio.done",
+  "response.audio_transcript.done",
+  "response.content_part.added",
+  "response.content_part.done",
+  "response.created",
+  "response.done",
+  "response.output_item.added",
+  "response.output_item.done",
+  "session.created",
+  "session.updated"
+ ],
+ "event_timeline_head": [
+  [
+   0.085,
+   "session.created"
+  ],
+  [
+   0.174,
+   "session.updated"
+  ],
+  [
+   1.689,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   2.395,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   2.395,
+   "input_audio_buffer.committed"
+  ],
+  [
+   2.395,
+   "conversation.item.created"
+  ],
+  [
+   2.395,
+   "response.created"
+  ],
+  [
+   2.395,
+   "response.output_item.added"
+  ],
+  [
+   2.396,
+   "conversation.item.created"
+  ],
+  [
+   2.396,
+   "response.content_part.added"
+  ],
+  [
+   2.507,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   3.141,
+   "response.audio_transcript.done"
+  ],
+  [
+   3.141,
+   "response.audio.done"
+  ],
+  [
+   3.141,
+   "response.content_part.done"
+  ],
+  [
+   3.141,
+   "response.output_item.done"
+  ],
+  [
+   3.141,
+   "response.done"
+  ],
+  [
+   9.539,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   10.31,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   10.31,
+   "input_audio_buffer.committed"
+  ],
+  [
+   10.31,
+   "conversation.item.created"
+  ],
+  [
+   10.31,
+   "response.created"
+  ],
+  [
+   10.31,
+   "response.output_item.added"
+  ],
+  [
+   10.311,
+   "conversation.item.created"
+  ],
+  [
+   10.311,
+   "response.content_part.added"
+  ],
+  [
+   10.42,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   10.91,
+   "response.audio_transcript.done"
+  ],
+  [
+   10.91,
+   "response.audio.done"
+  ],
+  [
+   10.91,
+   "response.content_part.done"
+  ],
+  [
+   10.91,
+   "response.output_item.done"
+  ],
+  [
+   10.91,
+   "response.done"
+  ],
+  [
+   15.044,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   15.83,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   15.83,
+   "input_audio_buffer.committed"
+  ],
+  [
+   15.83,
+   "conversation.item.created"
+  ],
+  [
+   15.83,
+   "response.created"
+  ],
+  [
+   15.83,
+   "response.output_item.added"
+  ],
+  [
+   15.831,
+   "conversation.item.created"
+  ],
+  [
+   15.831,
+   "response.content_part.added"
+  ],
+  [
+   15.966,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   16.354,
+   "response.audio_transcript.done"
+  ],
+  [
+   16.354,
+   "response.audio.done"
+  ],
+  [
+   16.354,
+   "response.content_part.done"
+  ],
+  [
+   16.354,
+   "response.output_item.done"
+  ],
+  [
+   16.354,
+   "response.done"
+  ],
+  [
+   20.401,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   24.152,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   24.152,
+   "input_audio_buffer.committed"
+  ],
+  [
+   24.152,
+   "conversation.item.created"
+  ],
+  [
+   24.152,
+   "response.created"
+  ],
+  [
+   24.152,
+   "response.output_item.added"
+  ],
+  [
+   24.152,
+   "conversation.item.created"
+  ],
+  [
+   24.152,
+   "response.content_part.added"
+  ],
+  [
+   24.236,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   24.238,
+   "response.audio_transcript.done"
+  ],
+  [
+   24.238,
+   "response.audio.done"
+  ],
+  [
+   24.238,
+   "response.content_part.done"
+  ],
+  [
+   24.238,
+   "response.output_item.done"
+  ],
+  [
+   24.238,
+   "response.done"
+  ],
+  [
+   24.238,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   26.31,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   26.31,
+   "input_audio_buffer.committed"
+  ],
+  [
+   26.31,
+   "conversation.item.created"
+  ],
+  [
+   26.31,
+   "response.created"
+  ],
+  [
+   26.31,
+   "response.output_item.added"
+  ],
+  [
+   26.31,
+   "conversation.item.created"
+  ],
+  [
+   26.31,
+   "response.content_part.added"
+  ],
+  [
+   26.469,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   27.41,
+   "response.audio_transcript.done"
+  ],
+  [
+   27.41,
+   "response.audio.done"
+  ],
+  [
+   27.41,
+   "response.content_part.done"
+  ],
+  [
+   27.41,
+   "response.output_item.done"
+  ],
+  [
+   27.41,
+   "response.done"
+  ],
+  [
+   37.357,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   41.109,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   41.109,
+   "input_audio_buffer.committed"
+  ],
+  [
+   41.109,
+   "conversation.item.created"
+  ],
+  [
+   41.109,
+   "response.created"
+  ],
+  [
+   41.109,
+   "response.output_item.added"
+  ],
+  [
+   41.109,
+   "conversation.item.created"
+  ],
+  [
+   41.109,
+   "response.content_part.added"
+  ]
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "product": "豆包",
+ "conversation": "C6_附和",
+ "started": "2026-10-12 03:07:33",
+ "turns": [
+  {
+   "id": "I4a",
+   "utterance": "你给我详细讲讲七天无理由退货的规则吧。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 3.08,
+   "t_speech_start": 1.234,
+   "t_speech_end": 4.311591082990635,
+   "asr": [
+    "你给我详细讲讲 7 天无理由退货的规则吧。"
+   ],
+   "ai_text": "您好，七天无理由是从签收当天算起7天内可以申请，生鲜、定制商品还有拆封的贴身衣物不能用，退货运费得您自己承担哦。请问您是有订单想要申请七天无理由退货吗？",
+   "t_first_audio": 5.737,
+   "latency_from_speech_end_s": 1.425,
+   "audio_sec": 0.64,
+   "n_audio_chunks": 2,
+   "ai_text_final": "您好，七天无理由是从签收当天算起7天内可以申请，生鲜、定制商品还有拆封的贴身衣物不能用，退货运费得您自己承担哦。 请问您是有订单想要申请七天无理由退货吗？",
+   "responses_done": [
+    [
+     8.659,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "BC1",
+   "utterance": "嗯。",
+   "kind": "barge",
+   "mix": null,
+   "prev_playback_end_est": 16.931,
+   "prev_still_playing": true,
+   "prev_audio_still_streaming": true,
+   "speech_sec": 1.12,
+   "t_speech_start": 7.753,
+   "t_speech_end": 8.890455541007686,
+   "prev_last_audio_t": 7.544,
+   "prev_responses_done": [
+    [
+     8.659,
+     ""
+    ]
+   ],
+   "prev_audio_continued_after_barge_s": 0.0,
+   "prev_was_cancelled": false,
+   "audio_sec": 0.0,
+   "n_audio_chunks": 0,
+   "asr": [
+    "嗯"
+   ],
+   "prev_total_audio_sec": 11.19
+  },
+  {
+   "id": "BC2",
+   "utterance": "对。",
+   "kind": "barge",
+   "mix": null,
+   "prev_playback_end_est": 16.931,
+   "prev_still_playing": true,
+   "prev_audio_still_streaming": false,
+   "speech_sec": 0.88,
+   "t_speech_start": 9.756,
+   "t_first_audio": 10.044,
+   "t_speech_end": 10.65078750000568,
+   "prev_last_audio_t": 7.544,
+   "prev_responses_done": [
+    [
+     8.659,
+     ""
+    ]
+   ],
+   "prev_audio_continued_after_barge_s": 0.0,
+   "prev_was_cancelled": false,
+   "latency_from_speech_end_s": -0.607,
+   "note": "模型在用户说完之前就开口了（可能抢话）",
+   "audio_sec": 3.81,
+   "n_audio_chunks": 10,
+   "responses_done": [
+    [
+     12.809,
+     ""
+    ]
+   ],
+   "ai_text": "麻烦您提供一下QY开头的订单号，还有下单手机号的",
+   "prev_total_audio_sec": 11.19
+  },
+  {
+   "id": "BC3",
+   "utterance": "好。",
+   "kind": "barge",
+   "mix": null,
+   "prev_playback_end_est": 16.931,
+   "prev_still_playing": true,
+   "prev_audio_still_streaming": false,
+   "speech_sec": 0.88,
+   "t_speech_start": 11.754,
+   "t_speech_end": 12.65097179098986,
+   "asr": [
+    "对，好。"
+   ],
+   "ai_text": "后四位，我先帮您核对下订单情况哈。",
+   "t_first_audio": 14.003,
+   "ai_text_final": "麻烦您提供一下QY开头的订单号，还有下单手机号的后四位，我先帮您核对下订单情况哈。",
+   "prev_last_audio_t": 7.544,
+   "prev_responses_done": [
+    [
+     8.659,
+     ""
+    ]
+   ],
+   "prev_audio_continued_after_barge_s": 0.0,
+   "prev_was_cancelled": false,
+   "latency_from_speech_end_s": 1.352,
+   "audio_sec": 7.42,
+   "n_audio_chunks": 19,
+   "responses_done": [
+    [
+     21.769,
+     ""
+    ]
+   ],
+   "prev_total_audio_sec": 11.19
+  }
+ ],
+ "voice": "zh_female_vv_jupiter_bigtts",
+ "errors": [],
+ "event_types": [
+  "conversation.item.input_audio_transcription.completed",
+  "conversation.item.input_audio_transcription.started",
+  "response.done",
+  "response.output_audio.done",
+  "response.output_audio.started",
+  "response.output_text.done",
+  "session.closed",
+  "session.created"
+ ],
+ "event_timeline_head": [
+  [
+   0.23,
+   "session.created"
+  ],
+  [
+   1.971,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   5.199,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   5.254,
+   "response.output_audio.started"
+  ],
+  [
+   6.407,
+   "response.output_text.done"
+  ],
+  [
+   7.545,
+   "response.output_audio.done"
+  ],
+  [
+   8.659,
+   "response.done"
+  ],
+  [
+   8.659,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   9.648,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   9.857,
+   "response.output_text.done"
+  ],
+  [
+   9.861,
+   "response.output_audio.started"
+  ],
+  [
+   10.441,
+   "response.output_audio.done"
+  ],
+  [
+   12.809,
+   "response.done"
+  ],
+  [
+   12.81,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   13.528,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   13.755,
+   "response.output_audio.started"
+  ],
+  [
+   14.208,
+   "response.output_text.done"
+  ],
+  [
+   15.035,
+   "response.output_audio.done"
+  ],
+  [
+   21.769,
+   "response.done"
+  ],
+  [
+   22.036,
+   "session.closed"
+  ]
+ ]
+}

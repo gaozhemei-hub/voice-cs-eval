@@ -1,0 +1,241 @@
+{
+ "product": "阶跃",
+ "conversation": "C6_附和",
+ "started": "2026-10-12 02:58:50",
+ "turns": [
+  {
+   "id": "I4a",
+   "utterance": "你给我详细讲讲七天无理由退货的规则吧。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 3.08,
+   "t_speech_start": 1.3,
+   "vad_speech_started": [
+    2.077
+   ],
+   "t_speech_end": 4.3149235420092005,
+   "vad_speech_stopped": [
+    5.255
+   ],
+   "responses_created": [
+    5.255
+   ],
+   "ai_text": "您好，七天无理由退货是指签收后7天内可以申请退货，但生鲜、定制商品和已拆封的贴身衣物不适用哦。退货运费需要您自己承担。请问还有其他售后问题吗？",
+   "t_first_audio": 5.302,
+   "latency_from_speech_end_s": 0.987,
+   "latency_from_vad_stop_s": 0.047,
+   "audio_sec": 0.02,
+   "n_audio_chunks": 1,
+   "ai_text_final": "您好，七天无理由退货是指签收后7天内可以申请退货，但生鲜、定制商品和已拆封的贴身衣物不适用哦。退货运费需要您自己承担。请问还有其他售后问题吗？",
+   "asr": [
+    "你给我详细讲讲7天无理由退货的规则吧。"
+   ],
+   "responses_done": [
+    [
+     10.387,
+     "completed"
+    ]
+   ]
+  },
+  {
+   "id": "BC1",
+   "utterance": "嗯。",
+   "kind": "barge",
+   "mix": null,
+   "prev_playback_end_est": 12.362,
+   "prev_still_playing": true,
+   "prev_audio_still_streaming": true,
+   "speech_sec": 1.12,
+   "t_speech_start": 7.332,
+   "vad_speech_started": [
+    8.366
+   ],
+   "t_speech_end": 8.435304708993062,
+   "prev_last_audio_t": 8.692,
+   "prev_responses_done": [],
+   "prev_audio_continued_after_barge_s": 3.01,
+   "prev_was_cancelled": false,
+   "audio_sec": 0.0,
+   "n_audio_chunks": 0,
+   "prev_total_audio_sec": 17.86
+  },
+  {
+   "id": "BC2",
+   "utterance": "对。",
+   "kind": "barge",
+   "mix": null,
+   "prev_playback_end_est": 20.142,
+   "prev_still_playing": true,
+   "prev_audio_still_streaming": true,
+   "speech_sec": 0.88,
+   "t_speech_start": 9.347,
+   "t_speech_end": 10.195323667004704,
+   "vad_speech_started": [
+    10.28
+   ],
+   "prev_last_audio_t": 10.342,
+   "prev_responses_done": [
+    [
+     10.387,
+     "completed"
+    ]
+   ],
+   "prev_audio_continued_after_barge_s": 0.995,
+   "prev_was_cancelled": false,
+   "audio_sec": 0.0,
+   "n_audio_chunks": 0,
+   "prev_total_audio_sec": 17.86
+  },
+  {
+   "id": "BC3",
+   "utterance": "好。",
+   "kind": "barge",
+   "mix": null,
+   "prev_playback_end_est": 23.162,
+   "prev_still_playing": true,
+   "prev_audio_still_streaming": false,
+   "speech_sec": 0.88,
+   "t_speech_start": 11.341,
+   "t_speech_end": 12.194789958982728,
+   "vad_speech_started": [
+    12.197
+   ],
+   "note": "20 秒内没有收到任何音频回复",
+   "prev_last_audio_t": 10.342,
+   "prev_responses_done": [
+    [
+     10.387,
+     "completed"
+    ]
+   ],
+   "prev_audio_continued_after_barge_s": 0.0,
+   "prev_was_cancelled": false,
+   "audio_sec": 0.0,
+   "n_audio_chunks": 0,
+   "prev_total_audio_sec": 17.86
+  }
+ ],
+ "voice": null,
+ "errors": [],
+ "event_types": [
+  "conversation.item.created",
+  "conversation.item.input_audio_transcription.completed",
+  "input_audio_buffer.cleared",
+  "input_audio_buffer.committed",
+  "input_audio_buffer.speech_backchannel",
+  "input_audio_buffer.speech_started",
+  "input_audio_buffer.speech_stopped",
+  "response.audio.done",
+  "response.audio_transcript.done",
+  "response.content_part.added",
+  "response.content_part.done",
+  "response.created",
+  "response.done",
+  "response.output_item.added",
+  "response.output_item.done",
+  "session.created",
+  "session.updated"
+ ],
+ "event_timeline_head": [
+  [
+   0.189,
+   "session.created"
+  ],
+  [
+   0.234,
+   "session.updated"
+  ],
+  [
+   2.077,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   5.255,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   5.255,
+   "input_audio_buffer.committed"
+  ],
+  [
+   5.255,
+   "conversation.item.created"
+  ],
+  [
+   5.255,
+   "response.created"
+  ],
+  [
+   5.255,
+   "response.output_item.added"
+  ],
+  [
+   5.257,
+   "conversation.item.created"
+  ],
+  [
+   5.257,
+   "response.content_part.added"
+  ],
+  [
+   5.354,
+   "response.audio_transcript.done"
+  ],
+  [
+   5.665,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   8.366,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   9.348,
+   "input_audio_buffer.speech_backchannel"
+  ],
+  [
+   9.348,
+   "input_audio_buffer.cleared"
+  ],
+  [
+   10.28,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   10.375,
+   "response.audio.done"
+  ],
+  [
+   10.375,
+   "response.content_part.done"
+  ],
+  [
+   10.375,
+   "response.output_item.done"
+  ],
+  [
+   10.387,
+   "response.done"
+  ],
+  [
+   11.553,
+   "input_audio_buffer.speech_backchannel"
+  ],
+  [
+   11.553,
+   "input_audio_buffer.cleared"
+  ],
+  [
+   12.197,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   12.834,
+   "input_audio_buffer.speech_backchannel"
+  ],
+  [
+   12.834,
+   "input_audio_buffer.cleared"
+  ]
+ ]
+}

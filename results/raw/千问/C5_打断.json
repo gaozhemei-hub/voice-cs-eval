@@ -1,0 +1,229 @@
+{
+ "product": "千问",
+ "conversation": "C5_打断",
+ "started": "2026-10-12 03:06:00",
+ "turns": [
+  {
+   "id": "I3a",
+   "utterance": "你们退货流程是怎样的，详细说说。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 3.12,
+   "t_speech_start": 1.145,
+   "vad_speech_started": [
+    1.705
+   ],
+   "t_speech_end": 4.262558833037037,
+   "vad_speech_stopped": [
+    4.425
+   ],
+   "responses_created": [
+    4.425
+   ],
+   "ai_text": "如果是七天无理由退货，签收7天内可以申请，运费需要您承担。如果是质量问题，签收15天内可退可换，运费由我们承担，但需要您提供照片或视频。审核通过后，退款会原路退回，一般1到3个工作日到账。",
+   "asr": [
+    "你们退货流程是怎样的？详细说说。"
+   ],
+   "t_first_audio": 4.597,
+   "latency_from_speech_end_s": 0.334,
+   "latency_from_vad_stop_s": 0.172,
+   "audio_sec": 0.4,
+   "n_audio_chunks": 1,
+   "ai_text_final": "如果是七天无理由退货，签收7天内可以申请，运费需要您承担。如果是质量问题，签收15天内可退可换，运费由我们承担，但需要您提供照片或视频。审核通过后，退款会原路退回，一般1到3个工作日到账。",
+   "responses_done": [
+    [
+     6.343,
+     "completed"
+    ]
+   ]
+  },
+  {
+   "id": "I3b",
+   "utterance": "停一下，我只想知道运费谁出。",
+   "kind": "barge",
+   "mix": null,
+   "prev_playback_end_est": 23.237,
+   "prev_still_playing": true,
+   "prev_audio_still_streaming": true,
+   "speech_sec": 2.96,
+   "t_speech_start": 6.605,
+   "vad_speech_started": [
+    7.147
+   ],
+   "t_speech_end": 9.582489958014339,
+   "vad_speech_stopped": [
+    10.025
+   ],
+   "responses_created": [
+    10.025
+   ],
+   "ai_text": "如果是七天无理由退货，运费由您承担。如果是质量问题，运费由我们青柚优选承担。",
+   "t_first_audio": 10.176,
+   "asr": [
+    "停一下，我只想知道运费谁出。"
+   ],
+   "ai_text_final": "如果是七天无理由退货，运费由您承担。如果是质量问题，运费由我们青柚优选承担。",
+   "responses_done": [
+    [
+     10.862,
+     "completed"
+    ]
+   ],
+   "prev_last_audio_t": 6.34,
+   "prev_responses_done": [
+    [
+     6.343,
+     "completed"
+    ]
+   ],
+   "prev_audio_continued_after_barge_s": 0.0,
+   "prev_was_cancelled": false,
+   "latency_from_speech_end_s": 0.594,
+   "latency_from_vad_stop_s": 0.151,
+   "audio_sec": 7.12,
+   "n_audio_chunks": 18,
+   "prev_total_audio_sec": 18.64
+  }
+ ],
+ "voice": "longanqian_v3.1",
+ "errors": [],
+ "event_types": [
+  "conversation.item.created",
+  "conversation.item.input_audio_transcription.completed",
+  "input_audio_buffer.committed",
+  "input_audio_buffer.speech_started",
+  "input_audio_buffer.speech_stopped",
+  "response.audio.done",
+  "response.audio_transcript.done",
+  "response.content_part.added",
+  "response.content_part.done",
+  "response.created",
+  "response.done",
+  "response.output_item.added",
+  "response.output_item.done",
+  "session.created",
+  "session.updated"
+ ],
+ "event_timeline_head": [
+  [
+   0.099,
+   "session.created"
+  ],
+  [
+   0.141,
+   "session.updated"
+  ],
+  [
+   1.705,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   4.425,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   4.425,
+   "input_audio_buffer.committed"
+  ],
+  [
+   4.425,
+   "conversation.item.created"
+  ],
+  [
+   4.425,
+   "response.created"
+  ],
+  [
+   4.425,
+   "response.output_item.added"
+  ],
+  [
+   4.425,
+   "conversation.item.created"
+  ],
+  [
+   4.425,
+   "response.content_part.added"
+  ],
+  [
+   4.583,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   6.342,
+   "response.audio_transcript.done"
+  ],
+  [
+   6.342,
+   "response.audio.done"
+  ],
+  [
+   6.342,
+   "response.content_part.done"
+  ],
+  [
+   6.342,
+   "response.output_item.done"
+  ],
+  [
+   6.343,
+   "response.done"
+  ],
+  [
+   7.147,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   10.025,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   10.025,
+   "input_audio_buffer.committed"
+  ],
+  [
+   10.025,
+   "conversation.item.created"
+  ],
+  [
+   10.025,
+   "response.created"
+  ],
+  [
+   10.025,
+   "response.output_item.added"
+  ],
+  [
+   10.025,
+   "conversation.item.created"
+  ],
+  [
+   10.025,
+   "response.content_part.added"
+  ],
+  [
+   10.258,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   10.862,
+   "response.audio_transcript.done"
+  ],
+  [
+   10.862,
+   "response.audio.done"
+  ],
+  [
+   10.862,
+   "response.content_part.done"
+  ],
+  [
+   10.862,
+   "response.output_item.done"
+  ],
+  [
+   10.862,
+   "response.done"
+  ]
+ ]
+}

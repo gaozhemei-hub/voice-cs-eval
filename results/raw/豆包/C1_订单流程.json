@@ -1,0 +1,509 @@
+{
+ "product": "豆包",
+ "conversation": "C1_订单流程",
+ "started": "2026-10-12 03:00:45",
+ "turns": [
+  {
+   "id": "Q1",
+   "utterance": "我订单号是 QY二六一零零八零一，手机尾号三七二一。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 5.64,
+   "t_speech_start": 1.186,
+   "t_speech_end": 6.822927541953977,
+   "asr": [
+    "我定当好事。 QY26100801，手机尾号 3721。"
+   ],
+   "ai_text": "好的，核对一致啦，这是10月9日签收的无线降噪耳机，请问您是有什么售后问题呀？核对好啦，这是",
+   "t_first_audio": 8.284,
+   "ai_text_final": "好的，核对一致啦，这是10月9日签收的无线降噪耳机，请问您是有什么售后问题呀？",
+   "latency_from_speech_end_s": 1.461,
+   "audio_sec": 7.22,
+   "n_audio_chunks": 19,
+   "responses_done": [
+    [
+     15.635,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "Q2",
+   "utterance": "订单号QY二六一零零八零一……哦不对不对，是QY二六一零一零零二，尾号三七二一。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 10.28,
+   "t_speech_start": 16.307,
+   "t_speech_end": 26.602963082997594,
+   "asr": [
+    "顶端号 QY26100801。不对，不对，是 QY26101002，尾号 3721。"
+   ],
+   "ai_text": "10月10日下单的驼色M码羊毛大衣，是预售商品，原本标注10月15日发货，目前还没发货哦。不好意思，有机草莓礼盒属于生鲜食品，不在",
+   "t_first_audio": 28.416,
+   "ai_text_final": "核对好啦，这是10月10日下单的驼色M码羊毛大衣，是预售商品，原本标注10月15日发货，目前还没发货哦。",
+   "latency_from_speech_end_s": 1.813,
+   "audio_sec": 10.37,
+   "n_audio_chunks": 27,
+   "responses_done": [
+    [
+     38.705,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "Q3",
+   "utterance": "草莓礼盒不太新鲜，但也没坏，我就是不想要了，能七天无理由吗？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 5.36,
+   "t_speech_start": 39.592,
+   "t_speech_end": 44.96224145798944,
+   "asr": [
+    "草莓礼盒不太新鲜，但也没坏，我就是不想要了，能 7 天无理由吗？"
+   ],
+   "ai_text": "七天无理由退货的适用范围内哦。如果没有质量问题的话，是没法申请无理由退货的。这属于签收15天内的质量问题，",
+   "t_first_audio": 46.258,
+   "ai_text_final": "不好意思，有机草莓礼盒属于生鲜食品，不在七天无理由退货的适用范围内哦。如果没有质量问题的话，是没法申请无理由退货的。",
+   "latency_from_speech_end_s": 1.296,
+   "audio_sec": 10.79,
+   "n_audio_chunks": 27,
+   "responses_done": [
+    [
+     57.241,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "Q4",
+   "utterance": "耳机签收第五天发现左耳没声音，退的话运费谁出？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 4.36,
+   "t_speech_start": 57.859,
+   "t_speech_end": 62.22273037499283,
+   "asr": [
+    "尔接千说第五天发现左耳没声音，退的话运费谁出？"
+   ],
+   "ai_text": "运费是由我们平台承担的，您只要提供对应的故障照片或视频就可以申请啦。这个订单还没发货，",
+   "t_first_audio": 63.577,
+   "ai_text_final": "这属于签收15天内的质量问题，运费是由我们平台承担的，您只要提供对应的故障照片或视频就可以申请啦。",
+   "latency_from_speech_end_s": 1.354,
+   "audio_sec": 9.16,
+   "n_audio_chunks": 24,
+   "responses_done": [
+    [
+     72.939,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "Q5a",
+   "utterance": "大衣能改个收货地址吗？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 1.56,
+   "t_speech_start": 73.566,
+   "t_speech_end": 75.14267645797692,
+   "asr": [
+    "大衣能改个数货地址吗？"
+   ],
+   "ai_text": "是可以修改收货地址的哦，您直接在订单详情页操作就可以啦耳机已经在10月9日签收啦，早就",
+   "t_first_audio": 76.185,
+   "ai_text_final": "这个订单还没发货，是可以修改收货地址的哦，您直接在订单详情页操作就可以啦",
+   "latency_from_speech_end_s": 1.042,
+   "audio_sec": 6.57,
+   "n_audio_chunks": 18,
+   "responses_done": [
+    [
+     82.835,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "Q5b",
+   "utterance": "那耳机呢，也能改吗？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 2.04,
+   "t_speech_start": 83.586,
+   "t_speech_end": 85.64218087498331,
+   "asr": [
+    "那尔接呢？也能改吗？"
+   ],
+   "ai_text": "发货完成了，没法修改收货地址哦。要是还没收到的话可以联系快递转寄，费用需要您自己承担~您是10月10日下单的，",
+   "t_first_audio": 86.895,
+   "ai_text_final": "耳机已经在10月9日签收啦，早就发货完成了，没法修改收货地址哦。要是还没收到的话可以联系快递转寄，费用需要您自己承担~",
+   "latency_from_speech_end_s": 1.253,
+   "audio_sec": 10.35,
+   "n_audio_chunks": 27,
+   "responses_done": [
+    [
+     97.597,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "Q10",
+   "utterance": "大衣昨天降价一百块了，能补差价吗？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 3.04,
+   "t_speech_start": 98.056,
+   "t_speech_end": 101.10245491696288,
+   "asr": [
+    "大衣昨天将家 100 块了，能补差价吗？"
+   ],
+   "ai_text": "现在还在7天价保期内，可以申请一次100元的差价补偿哦。您直接在订单里找价保申请入口提交就行不好意思哦，我们",
+   "t_first_audio": 102.267,
+   "ai_text_final": "您是10月10日下单的，现在还在7天价保期内，可以申请一次100元的差价补偿哦。您直接在订单里找价保申请入口提交就行",
+   "latency_from_speech_end_s": 1.165,
+   "audio_sec": 11.15,
+   "n_audio_chunks": 28,
+   "responses_done": [
+    [
+     113.56,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "R1",
+   "utterance": "你们是三十天无理由退货对吧？我耳机想退。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 3.68,
+   "t_speech_start": 114.258,
+   "t_speech_end": 117.94208716698223,
+   "asr": [
+    "你们是 30 天无理由退货，对吧？沃尔基想退。"
+   ],
+   "ai_text": "平台是签收之日起7天无理由退货，您的耳机10月9日签收，现在已经超过7天啦。如果是质量问题的话，15天内还是可以申请退换的您之前提供的下单手机号后四位是3721哦。",
+   "t_first_audio": 119.238,
+   "ai_text_final": "不好意思哦，我们平台是签收之日起7天无理由退货，您的耳机10月9日签收，现在已经超过7天啦。如果是质量问题的话，15天内还是可以申请退换的",
+   "latency_from_speech_end_s": 1.296,
+   "audio_sec": 13.39,
+   "n_audio_chunks": 34,
+   "responses_done": [
+    [
+     132.759,
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "Q8",
+   "utterance": "我刚才说的手机尾号是多少来着？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 2.6,
+   "t_speech_start": 133.458,
+   "t_speech_end": 136.06284849995748,
+   "asr": [
+    "我刚才说的手机尾号是多少来着？"
+   ],
+   "ai_text_final": "您之前提供的下单手机号后四位是3721哦。",
+   "t_first_audio": 137.554,
+   "latency_from_speech_end_s": 1.491,
+   "audio_sec": 4.2,
+   "n_audio_chunks": 12,
+   "responses_done": [
+    [
+     142.043,
+     ""
+    ]
+   ],
+   "ai_text": "好的，正在为您转接人工客服，请稍"
+  },
+  {
+   "id": "I8",
+   "utterance": "我不想跟机器人说了，给我转人工。",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 2.88,
+   "t_speech_start": 142.579,
+   "t_speech_end": 145.46282095797827,
+   "asr": [
+    "我不想跟机器人说了，给我转人工。"
+   ],
+   "ai_text": "候",
+   "ai_text_final": "好的，正在为您转接人工客服，请稍候",
+   "t_first_audio": 146.532,
+   "responses_done": [
+    [
+     150.996,
+     ""
+    ]
+   ],
+   "latency_from_speech_end_s": 1.069,
+   "audio_sec": 4.2,
+   "n_audio_chunks": 12
+  }
+ ],
+ "voice": "zh_female_vv_jupiter_bigtts",
+ "errors": [],
+ "event_types": [
+  "conversation.item.input_audio_transcription.completed",
+  "conversation.item.input_audio_transcription.started",
+  "response.done",
+  "response.output_audio.done",
+  "response.output_audio.started",
+  "response.output_text.done",
+  "session.closed",
+  "session.created"
+ ],
+ "event_timeline_head": [
+  [
+   0.181,
+   "session.created"
+  ],
+  [
+   1.944,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   7.681,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   7.811,
+   "response.output_audio.started"
+  ],
+  [
+   8.511,
+   "response.output_text.done"
+  ],
+  [
+   9.335,
+   "response.output_audio.done"
+  ],
+  [
+   15.635,
+   "response.done"
+  ],
+  [
+   17.421,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   27.895,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   27.895,
+   "response.output_audio.started"
+  ],
+  [
+   28.937,
+   "response.output_text.done"
+  ],
+  [
+   29.898,
+   "response.output_audio.done"
+  ],
+  [
+   38.705,
+   "response.done"
+  ],
+  [
+   40.709,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   45.78,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   46.081,
+   "response.output_audio.started"
+  ],
+  [
+   46.849,
+   "response.output_text.done"
+  ],
+  [
+   48.116,
+   "response.output_audio.done"
+  ],
+  [
+   57.241,
+   "response.done"
+  ],
+  [
+   58.844,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   63.055,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   63.354,
+   "response.output_audio.started"
+  ],
+  [
+   64.117,
+   "response.output_text.done"
+  ],
+  [
+   65.144,
+   "response.output_audio.done"
+  ],
+  [
+   72.939,
+   "response.done"
+  ],
+  [
+   74.403,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   75.846,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   75.909,
+   "response.output_audio.started"
+  ],
+  [
+   76.584,
+   "response.output_text.done"
+  ],
+  [
+   77.448,
+   "response.output_audio.done"
+  ],
+  [
+   82.835,
+   "response.done"
+  ],
+  [
+   84.573,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   86.403,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   86.721,
+   "response.output_audio.started"
+  ],
+  [
+   87.744,
+   "response.output_text.done"
+  ],
+  [
+   88.653,
+   "response.output_audio.done"
+  ],
+  [
+   97.597,
+   "response.done"
+  ],
+  [
+   99.082,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   101.816,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   102.049,
+   "response.output_audio.started"
+  ],
+  [
+   103.188,
+   "response.output_text.done"
+  ],
+  [
+   104.201,
+   "response.output_audio.done"
+  ],
+  [
+   113.56,
+   "response.done"
+  ],
+  [
+   115.158,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   118.728,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   118.786,
+   "response.output_audio.started"
+  ],
+  [
+   120.423,
+   "response.output_text.done"
+  ],
+  [
+   121.871,
+   "response.output_audio.done"
+  ],
+  [
+   132.759,
+   "response.done"
+  ],
+  [
+   134.215,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   137.0,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   137.341,
+   "response.output_audio.started"
+  ],
+  [
+   137.375,
+   "response.output_text.done"
+  ],
+  [
+   138.012,
+   "response.output_audio.done"
+  ],
+  [
+   142.043,
+   "response.done"
+  ],
+  [
+   143.46,
+   "conversation.item.input_audio_transcription.started"
+  ],
+  [
+   146.257,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   146.404,
+   "response.output_audio.started"
+  ],
+  [
+   146.416,
+   "response.output_text.done"
+  ],
+  [
+   146.985,
+   "response.output_audio.done"
+  ],
+  [
+   150.996,
+   "response.done"
+  ],
+  [
+   151.32,
+   "session.closed"
+  ]
+ ]
+}

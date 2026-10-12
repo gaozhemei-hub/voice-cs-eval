@@ -1,0 +1,5 @@
+# 复制本文件为 keys.txt，把 API Key 填在等号后面（keys.txt 已被 .gitignore 排除，不会上传）
+STEPFUN_API_KEY=
+DOUBAO_API_KEY=
+QWEN_API_KEY=
+QWEN_WORKSPACE_ID=

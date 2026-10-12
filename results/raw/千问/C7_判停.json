@@ -1,0 +1,196 @@
+{
+ "product": "千问",
+ "conversation": "C7_判停",
+ "started": "2026-10-12 03:06:57",
+ "turns": [
+  {
+   "id": "I5",
+   "utterance": "我想问一下〔停2秒〕那个耳机退货要多久到账？",
+   "kind": "normal",
+   "mix": null,
+   "speech_sec": 6.0,
+   "t_speech_start": 1.191,
+   "vad_speech_started": [
+    2.33,
+    5.368
+   ],
+   "vad_speech_stopped": [
+    3.438,
+    7.763
+   ],
+   "responses_created": [
+    3.438,
+    7.764
+   ],
+   "ai_text": "您好，我是青柚优选的客服小柚。请问您有什么售后问题需要帮忙吗？退款审核通过后，1到3个工作日就会原路退回您的账户。请问您是遇到质量问题，还是想申请七天无理由退货呢？",
+   "asr": [
+    "我想问一下。",
+    "那个耳机退货要多久到账啊？"
+   ],
+   "t_first_audio": 3.818,
+   "ai_text_final": "您好，我是青柚优选的客服小柚。请问您有什么售后问题需要帮忙吗？ 退款审核通过后，1到3个工作日就会原路退回您的账户。请问您是遇到质量问题，还是想申请七天无理由退货呢？",
+   "responses_done": [
+    [
+     4.271,
+     "completed"
+    ],
+    [
+     8.873,
+     "completed"
+    ]
+   ],
+   "t_speech_end": 7.1849195420322935,
+   "latency_from_speech_end_s": -3.367,
+   "latency_from_vad_stop_s": 0.38,
+   "note": "模型在用户说完之前就开口了（可能抢话）",
+   "interrupted_during_pause": true,
+   "pause_window": [
+    2.751,
+    4.751
+   ],
+   "audio_sec": 15.12,
+   "n_audio_chunks": 38
+  }
+ ],
+ "voice": "longanqian_v3.1",
+ "errors": [],
+ "event_types": [
+  "conversation.item.created",
+  "conversation.item.input_audio_transcription.completed",
+  "input_audio_buffer.committed",
+  "input_audio_buffer.speech_started",
+  "input_audio_buffer.speech_stopped",
+  "response.audio.done",
+  "response.audio_transcript.done",
+  "response.content_part.added",
+  "response.content_part.done",
+  "response.created",
+  "response.done",
+  "response.output_item.added",
+  "response.output_item.done",
+  "session.created",
+  "session.updated"
+ ],
+ "event_timeline_head": [
+  [
+   0.081,
+   "session.created"
+  ],
+  [
+   0.183,
+   "session.updated"
+  ],
+  [
+   2.33,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   3.438,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   3.438,
+   "input_audio_buffer.committed"
+  ],
+  [
+   3.438,
+   "conversation.item.created"
+  ],
+  [
+   3.438,
+   "response.created"
+  ],
+  [
+   3.438,
+   "response.output_item.added"
+  ],
+  [
+   3.438,
+   "conversation.item.created"
+  ],
+  [
+   3.438,
+   "response.content_part.added"
+  ],
+  [
+   3.588,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   4.271,
+   "response.audio_transcript.done"
+  ],
+  [
+   4.271,
+   "response.audio.done"
+  ],
+  [
+   4.271,
+   "response.content_part.done"
+  ],
+  [
+   4.271,
+   "response.output_item.done"
+  ],
+  [
+   4.271,
+   "response.done"
+  ],
+  [
+   5.368,
+   "input_audio_buffer.speech_started"
+  ],
+  [
+   7.763,
+   "input_audio_buffer.speech_stopped"
+  ],
+  [
+   7.763,
+   "input_audio_buffer.committed"
+  ],
+  [
+   7.763,
+   "conversation.item.created"
+  ],
+  [
+   7.764,
+   "response.created"
+  ],
+  [
+   7.764,
+   "response.output_item.added"
+  ],
+  [
+   7.764,
+   "conversation.item.created"
+  ],
+  [
+   7.764,
+   "response.content_part.added"
+  ],
+  [
+   7.943,
+   "conversation.item.input_audio_transcription.completed"
+  ],
+  [
+   8.873,
+   "response.audio_transcript.done"
+  ],
+  [
+   8.873,
+   "response.audio.done"
+  ],
+  [
+   8.873,
+   "response.content_part.done"
+  ],
+  [
+   8.873,
+   "response.output_item.done"
+  ],
+  [
+   8.873,
+   "response.done"
+  ]
+ ]
+}
